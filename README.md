@@ -6,6 +6,10 @@ The query generator generates random quad queries for a given RDF dataset.
 
 For this, the RDF data must first be imported into HDTQ, a Jena TDB store and a Virtuoso instance.
 
+## Prerequisites
+
+Add [HDTQ Performance Tests](https://github.com/JulianRei/hdtq-java-performanceTests) to your local Maven repository.
+
 ## Compiling
 
 Use mvn install to let Apache Maven install the required jars in your system.
