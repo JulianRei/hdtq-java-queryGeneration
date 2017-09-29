@@ -30,6 +30,11 @@ bear
 ```
 5. Start the generator (e.g. via Eclipse or via terminal: java -jar queryGeneration.jar) to see input parameters.
 
+Example of use:
+```
+java -jar some/path/queryGeneration.jar -f my/path/bear -n 100
+```
+
 ## License
 
 LPGL
