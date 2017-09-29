@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>queryGeneration</groupId>
+  <artifactId>queryGeneration</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	
+    <!-- https://mvnrepository.com/artifact/org.apache.jena/jena-tdb -->
+	<dependency>
+	    <groupId>org.apache.jena</groupId>
+	    <artifactId>jena-tdb</artifactId>
+	    <version>3.0.0</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.rdfhdt</groupId>
+	    <artifactId>hdt-java-core</artifactId>
+	    <version>2.2</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.ai.wu.ac.at</groupId>
+	    <artifactId>performanceTests</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	    
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source/>
+          <target/>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+</project>
